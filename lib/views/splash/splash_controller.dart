@@ -6,7 +6,7 @@ import '../../routes/app_pages.dart';
 import '../../style/dimensions.dart';
 import '../../utils/utility.dart';
 
-class NewSplashController extends BaseController {
+class SplashController extends BaseController {
 
   @override
   void onInit() {

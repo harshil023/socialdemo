@@ -9,13 +9,13 @@ import '../views/dashboard/bindings/dashboard_binding.dart';
 import '../views/dashboard/views/dashboard_view.dart';
 import '../views/discovery/bindings/discovery_binding.dart';
 import '../views/discovery/views/discovery_view.dart';
-import '../views/newsplash/new_splash_binding.dart';
-import '../views/newsplash/new_splash_view.dart';
 
 import '../views/profile/bindings/profile_binding.dart';
 import '../views/profile/views/profile_view.dart';
 import '../views/setting/bindings/setting_binding.dart';
 import '../views/setting/views/setting_view.dart';
+import '../views/splash/splash_binding.dart';
+import '../views/splash/splash_view.dart';
 
 part 'app_routes.dart';
 
@@ -26,9 +26,9 @@ class AppPages {
 
   static final routes = [
     GetPage(
-        name: Routes.NEW_SPLASH,
-        page: () => NewSplashView(),
-        binding: NewSplashBinding(),
+        name: Routes.SPLASH,
+        page: () => SplashView(),
+        binding: SplashBinding(),
         transition: Transition.downToUp),
     GetPage(
       name: Routes.DASHBOARD,

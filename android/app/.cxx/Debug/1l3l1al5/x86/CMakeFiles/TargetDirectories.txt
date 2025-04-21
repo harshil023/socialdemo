@@ -1,0 +1,2 @@
+D:/Practical/socialdemo/android/app/.cxx/Debug/1l3l1al5/x86/CMakeFiles/edit_cache.dir
+D:/Practical/socialdemo/android/app/.cxx/Debug/1l3l1al5/x86/CMakeFiles/rebuild_cache.dir

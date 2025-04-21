@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:socialdemo/views/newsplash/new_splash_binding.dart';
+import 'package:socialdemo/views/splash/splash_binding.dart';
 import '../routes/app_pages.dart';
 import '../style/color_constants.dart';
 import '../utils/app_strings.dart';
@@ -25,10 +25,10 @@ class MyApp extends GetView<AppController> {
             child: child!);
       },
       locale: Locale(_controller.locale),
-      initialRoute: Routes.NEW_SPLASH,
+      initialRoute: Routes.SPLASH,
       getPages: AppPages.routes,
       title: AppStrings.appName,
-      initialBinding: NewSplashBinding(),
+      initialBinding: SplashBinding(),
     );
   }
 }

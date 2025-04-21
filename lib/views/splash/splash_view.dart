@@ -3,13 +3,13 @@ import 'package:flutter/material.dart';
 import 'package:get/get_state_manager/src/simple/get_state.dart';
 import 'package:get/get_state_manager/src/simple/get_view.dart';
 import 'package:socialdemo/utils/app_strings.dart';
-import 'package:socialdemo/views/newsplash/new_splash_controller.dart';
+import 'package:socialdemo/views/splash/splash_controller.dart';
 
 import '../../style/color_constants.dart';
 import '../../style/dimensions.dart';
 
-class NewSplashView extends GetView<NewSplashController> {
-  const NewSplashView({super.key});
+class SplashView extends GetView<SplashController> {
+  const SplashView({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -17,8 +17,8 @@ class NewSplashView extends GetView<NewSplashController> {
     Dimensions.screenHeight = MediaQuery.of(context).size.height;
 
     return GetBuilder(
-      init: NewSplashController(),
-      builder: (NewSplashController controller) {
+      init: SplashController(),
+      builder: (SplashController controller) {
         return Scaffold(
           body: Container(
             color: ColorConstants.white,
